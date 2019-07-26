@@ -47,5 +47,131 @@
     transition: .5s;
 }
 
+/* banner starts */
 
+
+.banner_text {
+    width: 50%;
+    margin-top: 100px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+h1 {
+    color: #77C3FF;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url(image.png);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    overflow: hidden;
+      
+}
+
+.banner_text p {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.banner_text button {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+        margin-top: 30px;
+        transition: .5s;
+}
+
+.banner_text button:hover{
+    background-color: red;
+    color: white;
+}
+
+/* banner ends */
+
+
+.service {
+    overflow: hidden;
+    background-color: #121B2C;
+    color: white;
+    padding: 100px 0;
+}
+
+.service_section {
+    overflow: hidden;
+
+}
+
+.service1  {
+    float: left;
+    width: 30%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid grey;
+}
+
+.service1:last-child {
+    border-right: none;
+}
+
+
+
+.content {
+    overflow: hidden;
+
+}
+
+.content_img {
+    width: 10%;
+    float: left;
+}
+
+.content_text {
+    width: 80%;
+    float: right;
+    font-size: 20px;
+}
+
+
+.footer {
+    min-height: 100px;
+    background-color: #121B2C;
+    overflow: hidden;
+    color: white;
+    border-top: 1px solid black;
+}
+
+.nav_foot {
+    width: 60%;
+    float: left;
+}
+
+.footer_logo {
+    width: 30%;
+    float: right;
+}
+
+.nav_foot ul {
+    list-style: none;
+}
+
+.nav_foot ul li {
+    float: left;
+    padding-right: 18px;
+    margin-top: 20px;
+}
+
+.nav_foot p {
+    padding-top: 10px;
+    clear:both;
+}
 
